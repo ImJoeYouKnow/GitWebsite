@@ -1,6 +1,6 @@
 /* main.css */
 
-html, head, body, header, h1, h2, h3, h4, ul, ol, li, a{
+html, head, body, header, section, nav, h1, h2, h3, h4, ul, ol, li, a, div, {
   padding: 0;
   border: 0;
   margin: 0;
@@ -39,6 +39,11 @@ a {
     height: 44px;
     padding: 15px;
 }
+p, ul, ol {
+  line-height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
 .ijyk-logo-outer{
 	text-decoration: none;
   	float: left;
@@ -71,4 +76,51 @@ a {
 .contact{
   height: 44px;
   border-bottom: 1px solid #dcdbdf;
+}
+nav.main{
+  position: relative;
+  z-index: 1000;
+}
+nav.main .nav-items {
+  line-height: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav.main .nav-items-top:before, nav.main .nav-items-top:after {
+  content: " ";
+  display: table;
+}
+nav.main .nav-items-top:after {
+  clear: both;
+}
+nav.main .nav-items-top a {
+  color: #68666f;
+  text-decoration: none;
+
+  display: block;
+}
+nav.main .nav-item-top {
+  float: left;
+}
+nav.main .nav-item-top>a {
+  font-weight: 700;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 71px;
+  width: 115px;
+  padding: 27px;
+  border-top: 1px solid transparent;
+  border-right: 1px solid #dcdbdf;
+}
+nav.main .nav-item-top>a:hover {
+  font-weight: 700;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 71px;
+  width: 115px;
+  padding: 27px;
+  border-top: 1px solid transparent;
+  border-right: 1px solid #dcdbdf;
+  box-shadow: -2px -2px rgba(0,0,0,0.4);
 }
