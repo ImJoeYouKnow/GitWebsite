@@ -122,5 +122,15 @@ nav.main .nav-item-top>a:hover {
   padding: 27px;
   border-top: 1px solid transparent;
   border-right: 1px solid #dcdbdf;
-  box-shadow: -2px -2px rgba(0,0,0,0.4);
+  background: radial-gradient(#FFFFFF, #E0E0E0);
+}
+nav.main .nav-item-for-past-work>a{
+  font-size: 20px;
+  padding: 21px;
+  line-height: 17px;
+}
+nav.main .nav-item-for-past-work>a:hover{
+  font-size: 20px;
+  padding: 21px;
+  line-height: 17px;
 }
