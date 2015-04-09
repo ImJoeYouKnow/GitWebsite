@@ -77,6 +77,11 @@ p, ul, ol {
   height: 44px;
   border-bottom: 1px solid #dcdbdf;
 }
+.twitter-container{
+  width: 300px;
+  height: 500px;
+  float: right;
+}
 nav.main{
   position: relative;
   z-index: 1000;
@@ -122,15 +127,17 @@ nav.main .nav-item-top>a:hover {
   padding: 27px;
   border-top: 1px solid transparent;
   border-right: 1px solid #dcdbdf;
-  background: radial-gradient(#FFFFFF, #E0E0E0);
+  background: radial-gradient(#FFFFFF, #E6E6E6);
+  color: #C00000;
 }
 nav.main .nav-item-for-past-work>a{
   font-size: 20px;
-  padding: 21px;
-  line-height: 17px;
+  padding: 17px;
+  line-height: 20px;
 }
 nav.main .nav-item-for-past-work>a:hover{
   font-size: 20px;
-  padding: 21px;
-  line-height: 17px;
+  padding: 17px;
+  line-height: 20px;
+  color: #C00000;
 }
