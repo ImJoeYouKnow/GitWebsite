@@ -57,87 +57,171 @@ p, ul, ol {
   	z-index: 1001;
 }
 .ijyk-logo{
-	display: block;
-	width: 300px;
-	height: 75px;
-	border: 0;
+	 display: block;
+	 width: 300px;
+	 height: 75px;
+	 border: 0;
 }
 .social-media{
-	height: 57px;
-	width:;
+	 height: 57px;
+	 width:;
 }
 .label{
-	display: none;
+	 display: none;
 }
 .contact-nav-outer{
-  width: 100%;
-  height: 115px;
+    width: 100%;
+    height: 115px;
 }
 .contact{
-  height: 44px;
-  border-bottom: 1px solid #dcdbdf;
+    height: 44px;
+    border-bottom: 1px solid #dcdbdf;
 }
 .twitter-container{
-  width: 300px;
-  height: 500px;
-  float: right;
+    width: 300px;
+    height: 500px;
+    float: right;
+}
+.ScrollingBanner-container{
+    background: url("images/backgrounds/gitwebsite-grey.jpg");
+}
+.banner-container {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    margin: 10px auto 10px auto;
+}
+.photobanner {
+    height: 480px;
+    width: 5140px;
+    margin-top: 20px;
+}
+.photobanner img{
+    width: 853px;
+    height: 480px;
+    z-index: 1000;
+}
+.title{
+    color: #37363b;
+    font-family: "Open Sans",sans-serif;
+    font-size: 100px;
+    z-index: 1002;
+    float: center
+    position: relative;
+    background-color: none;
+}
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3428px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3428px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3428px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3428px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3428px;
+ }
+ 
 }
 nav.main{
-  position: relative;
-  z-index: 1000;
+    position: relative;
+    z-index: 1000;
 }
 nav.main .nav-items {
-  line-height: 1;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    line-height: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 nav.main .nav-items-top:before, nav.main .nav-items-top:after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 nav.main .nav-items-top:after {
-  clear: both;
+    clear: both;
 }
 nav.main .nav-items-top a {
-  color: #68666f;
-  text-decoration: none;
-
-  display: block;
+    color: #68666f;
+    text-decoration: none;
+    display: block;
 }
 nav.main .nav-item-top {
-  float: left;
+    float: left;
 }
 nav.main .nav-item-top>a {
-  font-weight: 700;
-  font-size: 20px;
+    font-weight: 700;
+    font-size: 20px;
   box-sizing: border-box;
-  height: 71px;
-  width: 115px;
-  padding: 27px;
-  border-top: 1px solid transparent;
-  border-right: 1px solid #dcdbdf;
+    height: 71px;
+    width: 115px;
+    padding: 26px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid #dcdbdf;
 }
 nav.main .nav-item-top>a:hover {
-  font-weight: 700;
-  font-size: 20px;
-  box-sizing: border-box;
-  height: 71px;
-  width: 115px;
-  padding: 27px;
-  border-top: 1px solid transparent;
-  border-right: 1px solid #dcdbdf;
-  background: radial-gradient(#FFFFFF, #E6E6E6);
-  color: #C00000;
+    font-weight: 700;
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 71px;
+    width: 115px;
+    padding: 27px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid #dcdbdf;
+    background: radial-gradient(#FFFFFF, #E6E6E6);
+    color: #C00000;
 }
 nav.main .nav-item-for-past-work>a{
-  font-size: 20px;
-  padding: 17px;
-  line-height: 20px;
+    font-size: 20px;
+    padding: 17px;
+    line-height: 20px;
 }
 nav.main .nav-item-for-past-work>a:hover{
-  font-size: 20px;
-  padding: 17px;
-  line-height: 20px;
-  color: #C00000;
+    font-size: 20px;
+    padding: 17px;
+    line-height: 20px;
+    color: #C00000;
 }
