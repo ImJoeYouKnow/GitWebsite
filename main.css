@@ -13,9 +13,9 @@ html, body {
   margin: 0;
 }
 body, input, textarea, select {
-  	color: #37363b;
-  	font-family: "Open Sans",sans-serif;
-  	font-size: 15px;
+  color: #37363b;
+	font-family: "Open Sans",sans-serif;
+ 	font-size: 15px;
 }
 header{
 	background-color: white;
@@ -26,6 +26,10 @@ header{
   	box-shadow: 0 1px 25px rgba(0,0,0,0.4);
   	position: relative;
   	z-index: 1000;
+}
+h1{
+  font-size: 60px;
+  font-family: "Open Sans",sans-serif;
 }
 a {
     color: #b9b7bf;
@@ -88,11 +92,12 @@ p, ul, ol {
                 inset -1px -1px 10px #000000;
 }
 .banner-container {
-    width: 1600px;
+    position: relative;
+    display: block;
+    width: 80%;
     height: 500px;
     overflow: hidden;
-    margin: 10px auto 10px auto;
-    position: relative;
+    margin: 10px auto;
 }
 .photobanner {
     height: 480px;
@@ -112,29 +117,30 @@ p, ul, ol {
     font-size: 40px;
     z-index: 1002;
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 480px;
     margin-top: 10px;
 }
 .scrolling-text{
+    display: block;
     width: 600px;
     height: 200px;
-    position: absolute;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
-    margin: 150px 500px;
+    margin: 150px auto;
     text-align: center;
-    font-family: "Open Sans",sans-serif;
     color: #ffffff;
     z-index: 1003;
+    padding: 10px;
 }
 /*keyframe animations*/
-.first {
-    -webkit-animation: bannermove 60s linear infinite;
-       -moz-animation: bannermove 60s linear infinite;
-        -ms-animation: bannermove 60s linear infinite;
-         -o-animation: bannermove 60s linear infinite;
-            animation: bannermove 60s linear infinite;
+.first{
+    -webkit-animation: bannermove 70s linear infinite;
+       -moz-animation: bannermove 70s linear infinite;
+        -ms-animation: bannermove 70s linear infinite;
+         -o-animation: bannermove 70s linear infinite;
+            animation: bannermove 70s linear infinite;
 }
 @keyframes "bannermove" {
  0% {
