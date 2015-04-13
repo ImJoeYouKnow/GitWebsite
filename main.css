@@ -84,6 +84,8 @@ p, ul, ol {
 }
 .ScrollingBanner-container{
     background: url("images/backgrounds/gitwebsite-grey.jpg");
+    box-shadow: inset 1px 1px 10px #000000,
+                inset -1px -1px 10px #000000;
 }
 .banner-container {
     width: 1600px;
@@ -103,7 +105,7 @@ p, ul, ol {
     height: 480px;
     z-index: 1000;
 }
-.title{
+.shading{
     background-color: rgba(0, 0, 0, 0.5);
     color: #37363b;
     font-family: "Open Sans",sans-serif;
@@ -113,6 +115,18 @@ p, ul, ol {
     width: 1600px;
     height: 480px;
     margin-top: 10px;
+}
+.scrolling-text{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    margin: 150px 500px;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    color: #ffffff;
+    z-index: 1003;
 }
 /*keyframe animations*/
 .first {
