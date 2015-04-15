@@ -27,6 +27,9 @@ header{
   	position: relative;
   	z-index: 1000;
 }
+main{
+  min-height: 1000px;
+}
 h1{
   font-size: 60px;
   font-family: "Open Sans",sans-serif;
@@ -47,6 +50,14 @@ p, ul, ol {
   line-height: 25px;
   margin-top: 25px;
   margin-bottom: 0;
+}
+footer{
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  border-top: 1px solid #dcdbdf;
+  margin-top: 40px;
+  box-shadow: 0 1px 25px rgba(0,0,0,0.4);
 }
 .ijyk-logo-outer{
 	text-decoration: none;
@@ -250,27 +261,30 @@ nav.main .nav-item-for-past-work>a:hover{
     color: #C00000;
 }
 .featured-video-twitter-container{
-  width: 80%;
-  height: 600px;
+  max-width: 80%;
+  min-width: 1000px;
+  height: 650px;
   margin: 10px auto;
   
 }
 .featured-video-box{
-  width: 60%;
-  height: 480px;
+  display: block;
+  min-width: 560px;
+  height: 315px;
   float: left;
   padding: 10px;
-  margin: 60px auto;
+  margin: 75px 20px;
 }
 .featured-video{
-  width: 853px;
-  height: 480px;
+  display: block;
+  width: 560px;
+  height: 315px;
   margin: 0 auto;
 }
 .twitter-container{
   height: 600px;
-  width: 30%;
-  float: right;<
+  min-width: 400px;
+  float: right;
   box-sizing: border-box;
   border-left: 1px solid #dcdbdf;
   padding: 10px;
