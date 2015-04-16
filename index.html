@@ -2,13 +2,19 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<title>ImJoeYouKnow| Home Page</title>
 			<link rel="stylesheet" href="main.css">
 			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 			<link rel="shortcut icon" href="images/favicon.ico">
-			<script src="jQuery.js"></script>
-			<script src="script.js"></script>
+			<script src="js/jQuery.js"></script>
+			<script src="js/jquery.fitvids.js"></script>
+			<script>
+			  $(document).ready(function(){
+			    // Target your .container, .wrapper, .post, etc.
+			    $(".featured-video-box").fitVids();
+			  });
+			</script>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			<title>ImJoeYouKnow| Home Page</title>
 		</head>
 		<body>
 			<header>
@@ -65,7 +71,7 @@
 					<div class="featured-video-box">
 						<!--http://fitvidsjs.com/-->
 						<iframe class="featured-video" width="560" height="315" src="https://www.youtube.com/embed/4XSpjdsZymw?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
-					</div>	
+					</div>
 					<div class="twitter-container">
 						<a class="twitter-timeline"
 						href="https://twitter.com/ImJoeYK" 
