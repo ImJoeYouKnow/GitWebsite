@@ -263,25 +263,23 @@ nav.main .nav-item-for-past-work>a:hover{
 .featured-video-twitter-container{
   max-width: 90%;
   min-width: 1000px;
-  height: 650px;
+  height: 700px;
   margin: 10px auto;
   list-style-type: none;
   }
 .featured-video{
   width: 70%;
   float: left;
-  padding: 10px 10px;
+  padding: 15px 15px;
   border-right: 1px solid #dcdbdf;
-  max-height: 650px;
 }
 .twitter-container{
   height: 650px;
   width: 25%;
   float: left;
-  padding-left: 15px;
-  margin: 10px auto;
+  padding: 15px 15px;
 }
 .twtr-doc{
   width: 100%;
-  max-height: 650px;
+  height: 100%;
 }
