@@ -109,6 +109,7 @@ footer{
     height: 500px;
     overflow: hidden;
     margin: 10px auto;
+    min-width: 1000px;
 }
 .photobanner {
     height: 480px;
@@ -266,18 +267,23 @@ nav.main .nav-item-for-past-work>a:hover{
   height: 700px;
   margin: 10px auto;
   list-style-type: none;
+  padding: 0px 0px;
   }
 .featured-video{
   width: 70%;
   float: left;
-  padding: 15px 15px;
+  padding: 10px 15px 0px 0px;
   border-right: 1px solid #dcdbdf;
+  min-width: 700px;
+  margin: 0px auto;
 }
 .twitter-container{
   height: 650px;
-  width: 25%;
+  width: 27%;
   float: left;
-  padding: 15px 15px;
+  padding: 10px 0px 10px 15px;
+  min-width: 250px;
+  margin: 0px auto;
 }
 .twtr-doc{
   width: 100%;

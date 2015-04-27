@@ -14,6 +14,20 @@ $('<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id
 		js.src = p+"://platform.twitter.com/widgets.js";
 		fjs.parentNode.insertBefore(js, fjs);
 	}
+	
 }(document, "script", "twitter-wjs");
+// inserts the twitter feed into the body; used to avoid repeated code
+function insertTwitter(homePath) {
+document.write('
+
+');
+document.write('
+');
+document.write('
+');
+document.write('
+');
+}
+
 });
 //https://twittercommunity.com/t/can-i-dynamically-change-the-height-of-a-widget/20274/2
