@@ -74,12 +74,40 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/4XSpjdsZymw?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
 					</li>
 					<li class="twitter-container">
-						function insertTwitter()
+						<script>// inserts the twitter feed into the body; used to avoid repeated code
+								function insertTwitter(homePath) {
+								document.write('
+								');
+								document.write('
+								');
+								document.write('
+								');
+								document.write('
+								');
+								}
+						</script>
 					</li>	
 				</ul>
 			</main>
 			<footer>
 				<div class="footer-container">
+					<section class= "contact-footer">
+						<a href="http://www.instagram.com/imjoeyouknow"target="_blank" class="contact-social-link contact-social-link-instagram">
+							<span class="fa fa-instagram"></span><span class="label">Instagram</span>
+						</a>
+						<a href="http://www.facebook. com/ImJoeYouKnow"target="_blank" class="contact-social-link contact-social-link-facebook">
+							<span class="fa fa-facebook"></span><span class="label">Facebook</span>
+						</a>
+						<a href="http://twitter.com/ImJoeYK"target="_blank" class="contact-social-link contact-social-link-twitter">
+							<span class="fa fa-twitter"></span><span class="label">Twitter</span>
+						</a>
+						<a href="https://www.youtube.com/user/ImjoeYK"target="_blank" class="contact-social-link contact-social-link-youtube">
+							<span class="fa fa-youtube"></span><span class="label">Youtube</span>
+						</a>
+						<a href="http://www.twitch.tv/imjoeyouknow"target="_blank" class="contact-social-link contact-social-link-twitch">
+							<span class="fa fa-twitch"></span><span class="label">Twitch</span>
+						</a>
+					</section>
 				</div>
 			</footer>
 		</body>

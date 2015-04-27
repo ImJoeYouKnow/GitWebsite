@@ -203,6 +203,9 @@ footer{
  }
  
 }
+.contact-footer{
+    height: 44px;
+}
 nav.main{
     position: relative;
     z-index: 1000;
