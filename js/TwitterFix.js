@@ -4,7 +4,8 @@ var twitHeight = (window.innerHeight - $("footer").height() - $("header").height
 console.debug(twitHeight);	
 
 // insert twitter widget
-$('<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id="586197075370455041"></a>').insertAfter("#twitter-loc");
+$('<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id="593067212107157504">Tweets by @ImJoeYK</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(').insertAfter("#twitter-loc");
 
 !function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
@@ -17,3 +18,4 @@ $('<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id
 }(document, "script", "twitter-wjs");
 });
 //https://twittercommunity.com/t/can-i-dynamically-change-the-height-of-a-widget/20274/2
+<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id="593067212107157504">Tweets by @ImJoeYK</a>

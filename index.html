@@ -7,7 +7,7 @@
 			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 			<link rel="shortcut icon" href="images/favicon.ico">
 			<script src="js/jQuery.js"></script>
-			<script src="js/TwitterFix.js"></script>
+			<!--<script src="js/TwitterFix.js"></script>-->
 			<script src="js/jquery.fitvids.js"></script>
 			<script>
 			  $(document).ready(function(){
@@ -45,6 +45,7 @@
 							<li class="nav-item nav-item-top nav-item-for-about"><a href="about.html">About</a></li>
 							<li class="nav-item nav-item-top nav-item-for-Videos"><a href="videos.html">Videos</a></li>
 							<li class="nav-item nav-item-top nav-item-for-past-work"><a href="past-work.html">Past Work</a></li>
+							<li class="nav-item nav-item-top nav-item-for-twitch"><a href="twitch.html">Twitch</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -74,13 +75,13 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/4XSpjdsZymw?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
 					</li>
 					<li class="twitter-container">
+						<p>Needs Fixing</p>
 						<script>
-							$(document).ready(function(){
 							var twitHeight = (window.innerHeight - $("footer").height() - $("header").height());
 							console.debug(twitHeight);	
 
 							// insert twitter widget
-							$('<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id="586197075370455041"></a>').insertAfter("#twitter-loc");
+							$('<a class="twitter-timeline" height="'+twitHeight+'" href="https://twitter.com/ImJoeYK" data-widget-id="593067212107157504">Tweets by @ImJoeYK</a>').insertAfter("#twitter-loc");
 
 							!function(d, s, id) {
 								var js, fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
@@ -91,7 +92,6 @@
 									fjs.parentNode.insertBefore(js, fjs);
 								}
 							}(document, "script", "twitter-wjs");
-							});
 						</script>
 					</li>	
 				</ul>
