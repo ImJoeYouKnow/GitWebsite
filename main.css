@@ -27,9 +27,9 @@ header{
   	position: relative;
   	z-index: 1000;
 }
-main{
+/*main{
   min-height: 1000px;
-}
+}*/
 h1{
   font-size: 60px;
   font-family: "Open Sans",sans-serif;
@@ -56,6 +56,11 @@ p, ul, ol {
   line-height: 25px;
   margin-top: 25px;
   margin-bottom: 0;
+}
+li{
+  font-size: 25px;
+  font-family: "Open Sans",sans-serif;
+  margin: 0;
 }
 footer{
   width: 100%;
@@ -307,20 +312,46 @@ nav.main .nav-item-for-past-work>a:hover{
 }
 .about-header{
   max-width: 70%;
+  height: 765px;
   margin: 15px auto;
   color: #000000;
   background-color: #ffffff;
-  text-align: center;
   border: 2px dashed #dcdbdf;
+  display: block;
+}
+.about-title{
+  text-align: center;
+  width: 100%;
+  margin: 10px 0 10px 0;
 }
 .about-header-summary{
-
+  border: 2px dashed #dcdbdf;
+  float: left;
+  width: 45%;
+  padding: 10px 10px 10px 10px;
+  margin: 71px 10px 10px 17px;
+  height: 516px;
+}
+.about-header-summary h3{
+  padding-top: 114px;
 }
 .about-header-points{
-  
+  border: 2px dashed #dcdbdf;
+  float: left;
+  width: 45%;
+  padding: 10px 10px 10px 40px;
+  margin: 71px 10px 10px 10px;
+  height: 516px;
+}
+.about-header-points ul{
+  list-style-type: none;
+  line-height: 250%;
 }
 .about-skills{
   max-width: 70%;
   margin: 0 auto;
-
+}
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
 }
