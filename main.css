@@ -70,7 +70,7 @@ li{
 }
 footer{
   width: 100%;
-  height: 80px;
+  height: 60px;
   box-sizing: border-box;
   border-top: 1px solid #dcdbdf;
   margin-top: 30px;
@@ -220,9 +220,6 @@ footer{
  }
  
 }
-.contact-footer{
-    height: 44px;
-}
 nav.main{
     position: relative;
     z-index: 1000;
@@ -283,7 +280,7 @@ nav.main .nav-item-for-past-work>a:hover{
 }
 .featured-video-twitter-container{
   width: 1340px;
-  height: 553px;
+  height: 563px;
   margin: 10px auto;
   list-style-type: none;
   padding: 0px 0px;
@@ -291,17 +288,16 @@ nav.main .nav-item-for-past-work>a:hover{
 .featured-video{
   width: 938px;
   float: left;
-  padding: 0px 15px 0px 0px;
+  padding: 10px 14px 0px 0px;
   border-right: 1px solid #dcdbdf;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 .twitter-container{
-  height: 553px;
-  width: 371px;
+  height: 530px;
+  width: 372px;
   float: left;
-  padding: 0px 0px 0px 15px;
-  min-width: 250px;
-  margin: 10px auto;
+  padding: 10px 0px 0px 14px;
+  margin: 0px auto;
 }
 .about-background{
   background-color: #ffffff;
@@ -320,9 +316,9 @@ nav.main .nav-item-for-past-work>a:hover{
   margin: 25px 0 0px 0;
 }
 .about-header-summary{
-  border: 2px dashed #dcdbdf;
+  border: 3px dashed #dcdbdf;
   float: left;
-  width: 620px;
+  width: 619px;
   padding: 10px 10px 10px 10px;
   margin-top: 25px;
   height: 516px;
@@ -334,9 +330,9 @@ nav.main .nav-item-for-past-work>a:hover{
   padding: 50px 15px 0px 15px;
 }
 .about-header-points{
-  border: 2px dashed #dcdbdf;
+  border: 3px dashed #dcdbdf;
   float: left;
-  width: 620px;
+  width: 619px;
   padding: 10px 10px 10px 40px;
   margin-top: 25px;
   margin-left: 20px;
@@ -360,7 +356,7 @@ nav.main .nav-item-for-past-work>a:hover{
   margin: 15px auto;
   color: #000000;
   background-color: #ffffff;
-  border: 2px dashed #dcdbdf;
+  border: 3px dashed #dcdbdf;
   display: block;
 }
 .about-skills-title {
@@ -383,4 +379,23 @@ nav.main .nav-item-for-past-work>a:hover{
   height: 220px;
   /*margin-top: 50px;
   margin-left: 210px;*/
+}
+.contact-footer{
+    height: 48px;
+    width: 470px;
+    margin: 0 auto;
+}
+.contact-footer a{
+    color: #b9b7bf;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline;
+    width: 24px;
+    height: 24px;
+    margin: 12px 35px 12px 35px;
+    padding: 0;
+}
+.contact-social-link-instagram{
+  margin-left: auto;
 }
