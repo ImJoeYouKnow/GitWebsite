@@ -7,7 +7,7 @@
 			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 			<link rel="shortcut icon" href="images/favicon.ico">
 			<script src="js/jQuery.js"></script>
-			<!--<script src="js/TwitterFix.js"></script>-->
+			<script src="js/TwitterFix.js"></script>
 			<script src="js/jquery.fitvids.js"></script>
 			<script>
 			  $(document).ready(function(){
@@ -15,7 +15,8 @@
 			    $(".featured-video").fitVids();
 			  });
 			</script>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			</script>
 		</head>
 		<body>
 			<header>
@@ -64,35 +65,18 @@
 						</div>
 						<div class="shading"></div>
 						<div class="scrolling-text">
-							<h1>?????????</h1>
-							<h2></h2>
+							<h2><a href="videos.html" target="_self" >Welcome to the official website of ImJoeYouKnow</a></h2>
 						</div>
 					</div>
 				</section>
 				<ul class="featured-video-twitter-container">
+					<h3>Featured Video</h3>
 					<li class="featured-video">
-							<!--http://fitvidsjs.com/-->
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/4XSpjdsZymw?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
+						<!--http://fitvidsjs.com/-->
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/VKLMvtHvN04?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
 					</li>
 					<li class="twitter-container">
-						<p>Needs Fixing</p>
-						<script>
-							var twitHeight = (window.innerHeight - $("footer").height() - $("header").height());
-							console.debug(twitHeight);	
-
-							// insert twitter widget
-							$('<a class="twitter-timeline" height="'+twitHeight+'" href="https://twitter.com/ImJoeYK" data-widget-id="593067212107157504">Tweets by @ImJoeYK</a>').insertAfter("#twitter-loc");
-
-							!function(d, s, id) {
-								var js, fjs = d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
-								if (!d.getElementById(id)) {
-									js = d.createElement(s);
-									js.id = id;
-									js.src = p+"://platform.twitter.com/widgets.js";
-									fjs.parentNode.insertBefore(js, fjs);
-								}
-							}(document, "script", "twitter-wjs");
-						</script>
+						<a class="twitter-timeline" href="https://twitter.com/ImJoeYK" data-widget-id="593067212107157504" height="528" width="367" data-chrome="nofooter">Tweets by @ImJoeYK</a>
 					</li>	
 				</ul>
 			</main>
