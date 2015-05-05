@@ -7,6 +7,13 @@
 			<link rel="shortcut icon" href="images/favicon.ico">
 			<script src="jQuery.js"></script>
 			<script src="script.js"></script>
+			<script src="js/jquery.fitvids.js"></script>
+			<script>
+			  $(document).ready(function(){
+			    // Target your .container, .wrapper, .post, etc.
+			    $(".video-box").fitVids();
+			  });
+			</script>
 			<title>ImJoeYouKnow| Videos</title>
 		</head>
 		<body>
@@ -42,7 +49,17 @@
 					</nav>
 				</div>
 			</header>
-			<main>
+			<main class="video-background">
+				<section class="video-header">
+					<h1 class="video-header-title"><strong>Videos</strong></h1>
+					<p>(All videos posted by ImJoeYouKnow thus far)</p>
+				</section>
+				<section class="video-main-wrapper">
+					<div class="video-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/VKLMvtHvN04?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
+					</div>
+					<div class="video-box"><iframe width="645" height="363" src="https://www.youtube.com/embed/VKLMvtHvN04?vq=hd720&theme=light&disablekb=1" frameborder="0"></iframe>
+					</div>
+				</section>
 			</main>
 			<footer>
 				<div class="footer-container">
