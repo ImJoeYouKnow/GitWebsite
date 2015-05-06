@@ -311,41 +311,40 @@ nav.main .nav-item-for-past-work>a:hover{
   padding: 10px 0px 0px 14px;
   margin: 0px auto;
 }
-.about-background{
+.about-background {
   background-color: #ffffff;
 }
-.about-header{
+.about-header {
   width: 1340px;
-  height: 660px;
-  margin: 15px auto;
+  height: 645px;
+  margin: 15px auto 25px auto;
   color: #000000;
   background-color: #ffffff;
   display: block;
+  border: 3px dashed #dcdbdf;
 }
-.about-title{
+.about-title {
   text-align: center;
   width: 100%;
   margin: 25px 0 0px 0;
 }
-.about-header-summary{
-  border: 3px dashed #dcdbdf;
+.about-header-summary {
   float: left;
   width: 619px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   margin-top: 25px;
   height: 516px;
 }
-.about-header-summary-title{
+.about-header-summary-title {
   text-align: center;
 }
 .about-header-summary h3{
   padding: 50px 15px 0px 15px;
 }
-.about-header-points{
-  border: 3px dashed #dcdbdf;
+.about-header-points {
   float: left;
   width: 619px;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 0px 40px;
   margin-top: 25px;
   margin-left: 20px;
   height: 516px;
@@ -440,4 +439,5 @@ nav.main .nav-item-for-past-work>a:hover{
   width: 645px;
   height: 363px;
   float: left;
+  list-style-type: none;
 }
