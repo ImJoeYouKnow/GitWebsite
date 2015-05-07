@@ -175,6 +175,17 @@ footer{
   padding: 25px 15px 25px 15px;
   text-decoration: none;
 }
+.scrolling-text-link:hover{
+  color: #FF0000;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  display: inline;
+  width: 550px;
+  height: 125px;
+  padding: 25px 15px 25px 15px;
+  text-decoration: none;
+}
 /*keyframe animations*/
 .first{
     -webkit-animation: bannermove 70s linear infinite;
