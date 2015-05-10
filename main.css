@@ -70,12 +70,7 @@ li{
   margin: 0;
 }
 footer{
-  width: 100%;
-  height: 48px;
-  box-sizing: border-box;
-  border-top: 1px solid #dcdbdf;
-  margin-top: 30px;
-  box-shadow: 0 1px 25px rgba(0,0,0,0.4);
+  
 }
 .ijyk-logo-outer{
 	text-decoration: none;
@@ -402,6 +397,14 @@ nav.main .nav-item-for-past-work>a:hover{
   /*margin-top: 50px;
   margin-left: 210px;*/
 }
+.footer-container {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border-top: 1px solid #dcdbdf;
+  margin-top: 30px;
+  box-shadow: 0 1px 25px rgba(0,0,0,0.4);
+}
 .contact-footer{
     height: 48px;
     width: 470px;
@@ -423,6 +426,7 @@ nav.main .nav-item-for-past-work>a:hover{
 }
 .video-background {
   background-color: #ffffff;
+  height: 100%;
 }
 .video-header {
   width: 1340px;
@@ -438,16 +442,38 @@ nav.main .nav-item-for-past-work>a:hover{
   margin: 0;
 
 }
-.video-main-wrapper{
+.video-main-container a {
+  color: #000;
+  text-align: left;
+  display: block;
+  float: none;
+  box-sizing: content-box;
+  width: 100%;
+  height: 162px;
+  padding: 0px;
+}
+.video-main-container{
   width: 1340px;
   margin: 15px auto;
-  height: 2681px;
+  height: 162px;
 }
-.video-box{
-  margin: ;
-  /*border: 1px dashed #000000;*/
+.video-box-wrapper{
+  height: 162px;
   padding: 10px;
-  width: 645px;
+  width: 100%;
   float: left;
   list-style-type: none;
+  position: relative;
+}
+.video-box-float {
+  float: left;
+}
+.video-box-metadata {
+}
+.video-box-metadata h3 {
+  font-size: ;
+}
+.video-box-image img {
+  width: 288px;
+  height: 162px;
 }
