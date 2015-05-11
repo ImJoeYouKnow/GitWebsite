@@ -442,6 +442,12 @@ nav.main .nav-item-for-past-work>a:hover{
   margin: 0;
 
 }
+.video-main-container{
+  width: 1340px;
+  margin: 15px auto;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
+  display: table;
+}
 .video-main-container a {
   color: #000;
   text-align: left;
@@ -449,31 +455,40 @@ nav.main .nav-item-for-past-work>a:hover{
   float: none;
   box-sizing: content-box;
   width: 100%;
-  height: 162px;
+  height: 182px;
   padding: 0px;
 }
-.video-main-container{
-  width: 1340px;
-  margin: 15px auto;
-  height: 162px;
-}
 .video-box-wrapper{
-  height: 162px;
-  padding: 10px;
-  width: 100%;
+  height: 182px;
+  width: 1340px;
   float: left;
   list-style-type: none;
   position: relative;
+  border-bottom: 1px solid #dcdbdf;
 }
 .video-box-float {
   float: left;
 }
 .video-box-metadata {
+  height: 162px;
+  padding: 10px;
 }
 .video-box-metadata h3 {
-  font-size: ;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  font-weight: 600;
+}
+.video-box-metadata p {
+  font-size: 15px;
+  line-height: 15px;
+  margin: 0;
 }
 .video-box-image img {
   width: 288px;
   height: 162px;
+  border-right: 1px solid #dcdbdf;
+  margin: 10px 10px 10px 10px;
+  padding-right: 10px;
+  
 }
