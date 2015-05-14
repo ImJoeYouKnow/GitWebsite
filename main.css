@@ -153,16 +153,14 @@ footer{
     width: 550px;
     height: 125px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 175px auto;
-    text-align: center;
-    color: #ffffff;
     z-index: 1003;
     padding: 10px;
 }
-.scrolling-text-link{
-  color: #ffffff;
+.scrolling-text-link {
+  color: #000000;
   font-size: 32px;
   line-height: 40px;
   text-align: center;
@@ -171,17 +169,11 @@ footer{
   height: 125px;
   padding: 25px 15px 25px 15px;
   text-decoration: none;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.36);
+  border-radius: 2px;
 }
-.scrolling-text-link:hover{
-  color: #d3d3d3;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
-  display: inline;
-  width: 550px;
-  height: 125px;
-  padding: 25px 15px 25px 15px;
-  text-decoration: none;
+.scrolling-text-link:hover {
+  box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.36);
 }
 /*keyframe animations*/
 .first{
@@ -250,7 +242,7 @@ nav.main .nav-items {
     padding: 0;
     margin: 0;
 }
-nav.main .nav-items-top:before, nav.main .nav-items-top:after {
+nav.main .nav-items-top {
     content: " ";
     display: table;
 }
@@ -322,26 +314,26 @@ nav.main .nav-item-for-past-work>a:hover{
 .about-background {
   background-color: #ffffff;
 }
-.about-header {
-  width: 1340px;
-  height: 645px;
-  margin: 15px auto 25px auto;
-  color: #000000;
-  background-color: #ffffff;
-  display: block;
-  border: 3px dashed #dcdbdf;
-}
 .about-title {
   text-align: center;
   width: 100%;
   margin: 25px 0 0px 0;
 }
+.about-header {
+  width: 1340px;
+  margin: 15px auto 25px auto;
+  color: #000000;
+  background-color: #ffffff;
+  display: table;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
+}
 .about-header-summary {
   float: left;
   width: 619px;
-  padding: 10px 10px 0px 10px;
-  margin-top: 25px;
+  padding: 10px 35px 0px 10px;
+  margin: 20px 5px 20px 0px;
   height: 516px;
+  border-right: 1px solid #dcdbdf;
 }
 .about-header-summary-title {
   text-align: center;
@@ -353,35 +345,30 @@ nav.main .nav-item-for-past-work>a:hover{
   float: left;
   width: 619px;
   padding: 10px 10px 0px 40px;
-  margin-top: 25px;
-  margin-left: 20px;
+  margin-top: 15px;
   height: 516px;
 }
 .about-header-points ul{
   list-style-type: none;
   line-height: 250%;
 }
-.about-skills{
-  width: 1340px;
-  margin: 0 auto;
-}
 .hangingindent {
   padding-left: 22px ;
   text-indent: -22px ;
 }
 .about-skills{
-  max-width: 1340px;
-  height: 660px;
+  width: 1340px;
+  height: 665px;
   margin: 15px auto;
   color: #000000;
   background-color: #ffffff;
-  border: 3px dashed #dcdbdf;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
   display: block;
 }
-.about-skills-title {
+.about-skills-title strong{
   width: 938px;
-  margin-top: 10px;
   margin-left: 80px;
+  line-height: 55px;
 }
 .about-skills-wrapper{
   width: 220px;
@@ -566,4 +553,7 @@ nav.main .nav-item-for-past-work>a:hover{
   box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.20);
   border: 1px solid #ffffff;
   background-color: #eeeeee;
+}
+#featured-video-temp {
+  margin-bottom: 15px;
 }

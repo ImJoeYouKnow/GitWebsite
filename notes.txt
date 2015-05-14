@@ -1,45 +1,14 @@
 http://i.ytimg.com/vi_webp/4XSpjdsZymw/mqdefault.webp
 
-Links:
-
-https://www.youtube.com/embed/4XSpjdsZymw
-
-https://www.youtube.com/embed/GqUpAavMfH0
-
-https://www.youtube.com/embed/mpyO0T8EZ0I
-
-https://www.youtube.com/embed/4RLUUfo9ONM
-
-https://www.youtube.com/embed/_EUtfr_YNrg
-
-https://www.youtube.com/embed/9yvmLWmyQv8
-
-https://www.youtube.com/embed/pYK876ivl-g
-
-https://www.youtube.com/embed/gQtSSXIH2UM
-
-https://www.youtube.com/embed/w7C8lxRFlsg
-
-https://www.youtube.com/embed/dXjQy_wPBHU
-
-https://www.youtube.com/embed/Z1eB-Newrxs
-
-https://www.youtube.com/embed/ka69ghqtda4
-
-https://www.youtube.com/embed/AC9FPBGe02s
-
-https://www.youtube.com/embed/MW0Q06M_ff0
-
-
 <div class="video-box-wrapper">
-						<a href="https://www.youtube.com/watch?v=VIDEOID">
+						<a href="https://www.youtube.com/watch?v=VIDEOID" target="_blank">
 							<div class="video-box-float video-box-image">
 								<img src="http://i.ytimg.com/vi_webp/VIDEOID/mqdefault.webp" alt="">
 							</div>
 							<div class="video-box-float video-box-metadata">
-								<h3>Video Title</h3>
-								<p id="video-box-metadata-date">Date Published</p>
-								<p>Description</p>
+								<h3>VIDEO TITLE</h3>
+								<p id="video-box-metadata-date">DATE PUBLISHED</p>
+								<p>DESCRIPTION</p>
 							</div>
 						</a>
 					</div>
