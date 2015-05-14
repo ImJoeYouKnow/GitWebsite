@@ -29,3 +29,17 @@ https://www.youtube.com/embed/ka69ghqtda4
 https://www.youtube.com/embed/AC9FPBGe02s
 
 https://www.youtube.com/embed/MW0Q06M_ff0
+
+
+<div class="video-box-wrapper">
+						<a href="https://www.youtube.com/watch?v=VIDEOID">
+							<div class="video-box-float video-box-image">
+								<img src="http://i.ytimg.com/vi_webp/VIDEOID/mqdefault.webp" alt="">
+							</div>
+							<div class="video-box-float video-box-metadata">
+								<h3>Video Title</h3>
+								<p id="video-box-metadata-date">Date Published</p>
+								<p>Description</p>
+							</div>
+						</a>
+					</div>
