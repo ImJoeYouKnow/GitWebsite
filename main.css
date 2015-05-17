@@ -232,63 +232,41 @@ footer{
  }
  
 }
-nav.main{
+.main{
     position: relative;
     z-index: 1000;
 }
-nav.main .nav-items {
+.nav-items {
     line-height: 1;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-nav.main .nav-items-top {
+.nav-items-top {
     content: " ";
     display: table;
 }
-nav.main .nav-items-top:after {
-    clear: both;
-}
-nav.main .nav-items-top a {
+.nav-items-top a {
     color: #68666f;
     text-decoration: none;
     display: block;
 }
-nav.main .nav-item-top {
+.nav-item-top {
     float: left;
 }
-nav.main .nav-item-top>a {
-    font-weight: 700;
-    font-size: 20px;
+.nav-item-top a {
+  font-weight: 700;
+  font-size: 20px;
   box-sizing: border-box;
-    height: 71px;
-    width: 115px;
-    padding: 26px;
-    border-top: 1px solid transparent;
-    border-right: 1px solid #dcdbdf;
+  height: 70px;
+  width: 130px;
+  padding: 26px;
+  border-top: 1px solid transparent;
+  border-right: 1px solid #dcdbdf;
+  line-height: 18px;
 }
-nav.main .nav-item-top>a:hover {
-    font-weight: 700;
-    font-size: 20px;
-    box-sizing: border-box;
-    height: 71px;
-    width: 115px;
-    padding: 27px;
-    border-top: 1px solid transparent;
-    border-right: 1px solid #dcdbdf;
-    background: radial-gradient(#FFFFFF, #E6E6E6);
-    color: #C00000;
-}
-nav.main .nav-item-for-past-work>a{
-    font-size: 20px;
-    padding: 17px;
-    line-height: 20px;
-}
-nav.main .nav-item-for-past-work>a:hover{
-    font-size: 20px;
-    padding: 17px;
-    line-height: 20px;
-    color: #C00000;
+.nav-item-top a:hover {
+  background-color: #f3f3f3;
 }
 .featured-video-twitter-container{
   width: 1340px;
@@ -358,11 +336,10 @@ nav.main .nav-item-for-past-work>a:hover{
 }
 .about-skills{
   width: 1340px;
-  height: 665px;
+  height: 702px;
   margin: 15px auto;
   color: #000000;
   background-color: #ffffff;
-  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
   display: block;
 }
 .about-skills-title strong{
@@ -371,14 +348,29 @@ nav.main .nav-item-for-past-work>a:hover{
   line-height: 55px;
 }
 .about-skills-wrapper{
-  width: 220px;
-  height: 261px;
+  width: 260px;
+  height: 301px;
   float: left;
-  margin: 10px 113px 10px 113px;
+  margin: 10px 93px 10px 93px;
+  padding: 10px 20px 20px 20px;
+  text-align: left;
+  line-height: 41px;
+  text-decoration: none;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
 }
-.about-skills-text{
+.about-skills-wrapper:hover {
+  box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.50);
+  background-color: #f3f3f3;
+}
+.about-skills-wrapper h3{
   width: 220px;
   display: inline;
+  color: #000000;
+  font-size: 30px;
+}
+#about-img-link{
+  width: 220px;
+  height: 261px;
 }
 .skill-badge{
   width: 220px;
@@ -458,9 +450,6 @@ nav.main .nav-item-for-past-work>a:hover{
 .video-box-wrapper:hover{
   box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.50);
   background-color: #f3f3f3;
-}
-.video-box-wrapper:hover img{
-  opacity: 2;
 }
 .video-box-float {
   float: left;
