@@ -546,3 +546,77 @@ footer{
 #featured-video-temp {
   margin-bottom: 15px;
 }
+.twitch-background{
+  width: 1340px;
+  height: auto;
+  display: table;
+  margin: 30px auto 0px auto; 
+  /*box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);*/
+}
+.twitch-video-container{
+  width: 919px;
+  height: 725px;
+  float: left;
+  background-color: #f2f2f2;
+  margin-right: 28px;
+  margin-top: 30px;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
+}
+.twitch-chat-container{
+  width: 378px;
+  height: 695px;
+  float: left;
+}
+.twitch-video{
+  margin: 25px 21px 0px 21px;
+  height: 525px;
+  width: 877px;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
+}
+.twitch-chat{
+  margin: 30px 0px 20px 0px;
+  width: 350px;
+  height: 655px;
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.36);
+}
+.twitch-channel-actions{
+  height: 30px;
+  margin: 15px 0 0px 21px;
+  width: auto;
+  display: table;
+}
+.twitch-follow-button{
+  height: 30px;
+  width: 76px;
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.36);
+  background-color: #5A3A94;
+}
+.twitch-follow-button:hover{
+  height: 30px;
+  width: 76px;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.50);
+  background-color: #6441a5;
+}
+.twitch-follow-button img{
+  height: 16px;
+  width: 16px;
+  float: left;
+  padding: 7px;
+}
+#twitch-follow-link{
+  height: 30px;
+  width: 76px;
+  float: left;
+  padding: 0;
+  text-decoration: none;
+}
+#twitch-follow{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  line-height: 30px;
+  height: 14px;
+  width: 36px;
+  float: left;
+}
